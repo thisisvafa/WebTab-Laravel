@@ -35,16 +35,9 @@
         </li>
 
         <li class="nav-title">Profile</li>
-        <li class="nav-item">
-            <a class="nav-link" href="">
-                <svg class="nav-icon">
-                    <use xlink:href="{{asset('admin/vendors/@coreui/icons/svg/free.svg#cil-drop')}}"></use>
-                </svg> Profile
-            </a>
-        </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="">
+            <a class="nav-link" href="{{route('AdminLogout')}}">
                 <svg class="nav-icon">
                     <use xlink:href="{{asset('admin/vendors/@coreui/icons/svg/free.svg#cil-drop')}}"></use>
                 </svg> Logout

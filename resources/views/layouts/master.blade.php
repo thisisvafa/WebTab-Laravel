@@ -31,6 +31,7 @@
                         </li>
                     </ul>
                     <div class="d-flex">
+                        <a href="{{route('adminLogin')}}" class="btn btn-outline-success me-2" type="submit">Admin Login</a>
                         @auth()
                             <a href="{{route('dashboard')}}" class="btn btn-outline-success me-2" type="submit">Dashboard</a>
                             <a href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="btn btn-outline-danger me-2" type="submit">Logout</a>
