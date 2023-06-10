@@ -3,7 +3,7 @@
 ## Database
 you can upload `la_webtab.sql` in database
 
-## admin Login
+## Admin Login
 user: `admin@admin.com`
 <br/>
 pass: `123456789`
