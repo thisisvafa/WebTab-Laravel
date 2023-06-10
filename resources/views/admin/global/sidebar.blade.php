@@ -20,18 +20,17 @@
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
                 </svg> Users</a>
             <ul class="nav-group-items">
-                <li class="nav-item"><a class="nav-link" href="base/accordion.html"><span class="nav-icon"></span> Show Users</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/breadcrumb.html"><span class="nav-icon"></span> Create User</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('userAdmin')}}"><span class="nav-icon"></span> Show Users</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('userCreateAdmin')}}"><span class="nav-icon"></span> Create User</a></li>
             </ul>
         </li>
 
-        <li class="nav-group"><a class="nav-link nav-group-toggle" href="{{ route('userAdmin') }}">
+        <li class="nav-group"><a class="nav-link nav-group-toggle" href="{{ route('commentsAdmin') }}">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
                 </svg> Comments</a>
             <ul class="nav-group-items">
-                <li class="nav-item"><a class="nav-link" href="base/accordion.html"><span class="nav-icon"></span> Show Users</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/breadcrumb.html"><span class="nav-icon"></span> Create User</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('commentsAdmin') }}"><span class="nav-icon"></span> Show Comments</a></li>
             </ul>
         </li>
 
